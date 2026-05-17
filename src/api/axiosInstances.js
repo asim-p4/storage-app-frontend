@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://smart-storage-sys.netlify.app";
+const BASE_URL = "https://smart-storage-sys.onrender.com";
 
 export const axiosWithCreds = axios.create({
   baseURL: BASE_URL,
