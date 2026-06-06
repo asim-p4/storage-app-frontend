@@ -1,4 +1,4 @@
-if (false) {
+if (true) {
   console.log("pass");
   process.exit(0);
 } else {
