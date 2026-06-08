@@ -10,11 +10,11 @@ jobs:
       S3_BUCKET_NAME: smart-storage-client
       CLOUDFRONT_DISTRIBUTION_ID: E5JM7K1IAVXHJ
       VITE_GOOGLE_CLIENT_ID: 995672967338-f6q9vuagku7tchs7e8nub7hjnc9u4mt2.apps.googleusercontent.com
-      VITE_BACKEND_BASE_URL: http://13.63.67.174/:4000
+      VITE_BACKEND_BASE_URL: http://13.63.67.174:4000
 
     steps:
-    #   - name: Clone frontend repository
-    #     run: git clone https://github.com/asim-p4/storage-app-frontend.git .
+      - name: Checkout repository
+        uses: actions/checkout@v4
         
       - name: Setup Node
         uses: actions/setup-node@v4
