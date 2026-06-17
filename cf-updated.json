@@ -10,7 +10,7 @@
       {
         "Id": "smart-storage-client.s3.eu-north-1.amazonaws.com-mph3bxcy9aj",
         "DomainName": "smart-storage-client.s3.eu-north-1.amazonaws.com",
-        "OriginPath": "releases/20260617-231927/",
+        "OriginPath": "C:/Program Files/Git/releases/20260617-235629/",
         "CustomHeaders": {
           "Quantity": 0
         },
