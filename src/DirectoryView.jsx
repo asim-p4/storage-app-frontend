@@ -26,7 +26,7 @@ function DirectoryView() {
   const { dirId } = useParams();
   const navigate = useNavigate();
 
-  const [directoryName, setDirectoryName] = useState("poff");
+  const [directoryName, setDirectoryName] = useState("first and last");
   const [directoriesList, setDirectoriesList] = useState([]);
   const [filesList, setFilesList] = useState([]);
   const [errorMessage, setErrorMessage] = useState("");
