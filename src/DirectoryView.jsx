@@ -26,7 +26,7 @@ function DirectoryView() {
   const { dirId } = useParams();
   const navigate = useNavigate();
 
-  const [directoryName, setDirectoryName] = useState("frm");
+  const [directoryName, setDirectoryName] = useState("rm");
   const [directoriesList, setDirectoriesList] = useState([]);
   const [filesList, setFilesList] = useState([]);
   const [errorMessage, setErrorMessage] = useState("");
