@@ -53,7 +53,7 @@ function DirectoryView() {
   const loadDirectory = async () => {
     try {
       const data = await getDirectoryItems(dirId);
-      setDirectoryName(dirId ? data.name : "doing");
+      setDirectoryName(dirId ? data.name : "doig");
       setDirectoriesList([...data.directories].reverse());
       setFilesList([...data.files].reverse());
     } catch (err) {
