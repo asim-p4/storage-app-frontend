@@ -27,7 +27,7 @@ function DirectoryView() {
   const navigate = useNavigate();
 
   const [directoryName, setDirectoryName] = useState(
-    "testing for merging to prod",
+    "main",
   );
   const [directoriesList, setDirectoriesList] = useState([]);
   const [filesList, setFilesList] = useState([]);
@@ -55,7 +55,7 @@ function DirectoryView() {
   const loadDirectory = async () => {
     try {
       const data = await getDirectoryItems(dirId);
-      setDirectoryName(dirId ? data.name : "codis");
+      setDirectoryName(dirId ? data.name : "main");
       setDirectoriesList([...data.directories].reverse());
       setFilesList([...data.files].reverse());
     } catch (err) {
