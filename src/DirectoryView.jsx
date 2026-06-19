@@ -33,7 +33,7 @@ function DirectoryView() {
   const [filesList, setFilesList] = useState([]);
   const [errorMessage, setErrorMessage] = useState("");
   const [showCreateDirModal, setShowCreateDirModal] = useState(false);
-  const [newDirname, setNewDirname] = useState("workflow");
+  const [newDirname, setNewDirname] = useState("workflow!!!!");
   const [showRenameModal, setShowRenameModal] = useState(false);
   const [renameType, setRenameType] = useState(null);
   const [renameId, setRenameId] = useState(null);
@@ -55,7 +55,7 @@ function DirectoryView() {
   const loadDirectory = async () => {
     try {
       const data = await getDirectoryItems(dirId);
-      setDirectoryName(dirId ? data.name : "workflow");
+      setDirectoryName(dirId ? data.name : "workflow!!!!");
       setDirectoriesList([...data.directories].reverse());
       setFilesList([...data.files].reverse());
     } catch (err) {
